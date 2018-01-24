@@ -1,5 +1,3 @@
-import { ExtendedAPIPlugin } from '../Library/Caches/typescript/2.6/node_modules/@types/webpack';
-
 var path = require('path');
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
@@ -17,7 +15,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        exclude: 'node_modules',
+        exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
           options: {
@@ -33,7 +31,7 @@ module.exports = {
             {
               loader: 'css-loader',
               options: {
-                url: flase
+                url: false
               }
             }
           ]
@@ -46,7 +44,7 @@ module.exports = {
             {
               loader: 'css-loader',
               options: {
-                url: flase
+                url: false
               }
             },
             'sass-loader'
