@@ -70,7 +70,15 @@
 "use strict";
 
 
+__webpack_require__(1);
+
 console.log('js file loading....');
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);
