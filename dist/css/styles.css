@@ -1,3 +1,530 @@
 body {
   margin: 0;
+  font-family: 'Titillium-Regular';
+}
+
+body header {
+  height: 120px;
+}
+
+body header .wrapper {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 940px;
+}
+
+body header .wrapper a {
+  float: left;
+  margin-top: 20px;
+}
+
+body header .wrapper nav {
+  float: right;
+}
+
+body header .wrapper nav ul {
+  list-style-type: none;
+}
+
+body header .wrapper nav ul li {
+  float: left;
+  margin-top: 25px;
+}
+
+body header .wrapper nav ul li a {
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+body #hero-image {
+  height: 600px;
+  background: #e8eced url("../image/hero.jpg") no-repeat center;
+  background-size: cover;
+}
+
+body #hero-image .wrapper {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 940px;
+}
+
+body #hero-image .wrapper h2 {
+  font-family: 'Titillium-Regular';
+  font-size: 55px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0px;
+  position: relative;
+  color: #ffffff;
+  top: 250px;
+}
+
+body #hero-image .wrapper h3 {
+  font-family: 'Titillium-Regular';
+  font-size: 45px;
+  text-transform: uppercase;
+  margin: 0px;
+  position: relative;
+  color: #0078ad;
+  top: 250px;
+  left: 250px;
+}
+
+body #hero-image .wrapper .button-container {
+  position: relative;
+  top: 300px;
+}
+
+body #hero-image .wrapper .button-container .hero-button {
+  width: 200px;
+  height: 100px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Titillium-Regular';
+  font-weight: bold;
+  color: #ffffff;
+  padding: 5px;
+  margin: 10px;
+}
+
+body #hero-image .wrapper .button-container .hero-button .hero-button-icon {
+  color: #ffffff;
+  font-size: 30px;
+  padding: 7px 10px;
+  float: left;
+}
+
+body #hero-image .wrapper .button-container .hero-button .hero-button-learn {
+  font-size: 14px;
+  text-transform: none;
+  color: #10406e;
+}
+
+body #hero-image .wrapper .button-container .alpha-1 {
+  background-color: rgba(0, 120, 173, 0.75);
+}
+
+body #hero-image .wrapper .button-container .alpha-2 {
+  background-color: rgba(0, 120, 173, 0.5);
+}
+
+body #hero-image .wrapper .button-container .alpha-3 {
+  background-color: rgba(0, 120, 173, 0.25);
+}
+
+body #hero-image .wrapper .button-container .alpha-4 {
+  background-color: rgba(0, 120, 173, 0.1);
+}
+
+body #who-we-are {
+  background-color: #0078ad;
+  height: 400px;
+}
+
+body #who-we-are .wrapper {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 940px;
+  box-sizing: border-box;
+}
+
+body #who-we-are .wrapper .who-we-are {
+  float: left;
+  width: 30%;
+  margin: 10px;
+  color: #ffffff;
+}
+
+body #who-we-are .wrapper .who-we-are h4 {
+  font-family: 'Titillium-Regular';
+  font-size: 35px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 60px;
+}
+
+body #who-we-are .wrapper .who-we-are p {
+  font-family: 'Titillium-Regular';
+  font-size: 15px;
+  line-height: 23px;
+}
+
+body #who-we-are .wrapper .who-we-are button {
+  background-color: #0078ad;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Titillium-Regular';
+  padding: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+body #who-we-are .wrapper .year-groups {
+  float: left;
+  width: 30%;
+  margin: 10px;
+  color: #ffffff;
+}
+
+body #who-we-are .wrapper .year-groups h4 {
+  font-family: 'Titillium-Regular';
+  font-size: 35px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 60px;
+}
+
+body #who-we-are .wrapper .year-groups p a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+body #who-we-are .wrapper .year-groups button {
+  background-color: #0078ad;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Titillium-Regular';
+  padding: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+body #who-we-are .wrapper .our-kids {
+  float: left;
+  width: 30%;
+  margin: 10px;
+  color: #ffffff;
+}
+
+body #who-we-are .wrapper .our-kids h4 {
+  font-family: 'Titillium-Regular';
+  font-size: 35px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 60px;
+}
+
+body #who-we-are .wrapper .our-kids iframe {
+  margin-top: 15px;
+}
+
+body #whats-been-happening {
+  margin-bottom: 120px;
+}
+
+body #whats-been-happening .wrapper {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 940px;
+  height: 800px;
+}
+
+body #whats-been-happening .wrapper h3 {
+  font-family: 'Titillium-Regular';
+  font-size: 45px;
+  text-align: center;
+  color: #0078ad;
+  margin: 0px;
+  padding-top: 60px;
+}
+
+body #whats-been-happening .wrapper h4 {
+  font-family: 'Titillium-Regular';
+  font-size: 35px;
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 60px;
+  color: #6d6d6d;
+}
+
+body #whats-been-happening .wrapper .left {
+  float: left;
+  width: 47%;
+  margin: 10px;
+  overflow: hidden;
+}
+
+body #whats-been-happening .wrapper .left .blog-images:hover {
+  transform: scale(1.1);
+}
+
+body #whats-been-happening .wrapper .left .blog-container {
+  background-color: #c1c1c1;
+  padding: 20px;
+}
+
+body #whats-been-happening .wrapper .left .blog-container .blog-info {
+  font-family: 'Titillium-Regular';
+  font-size: 12px;
+}
+
+body #whats-been-happening .wrapper .left .blog-container h4 {
+  font-family: 'Titillium-Regular';
+  font-size: 35px;
+  text-align: center;
+  margin: 0px;
+  color: #0078ad;
+}
+
+body #whats-been-happening .wrapper .left .blog-container p {
+  font-family: 'Titillium-Regular';
+  font-size: 15px;
+  line-height: 20px;
+}
+
+body #whats-been-happening .wrapper .left .blog-container button {
+  background-color: #134a7d;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Titillium-Regular';
+  padding: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+body #whats-been-happening .wrapper .left .blog-container button:hover {
+  background-color: #428bca;
+}
+
+body #whats-been-happening .wrapper .right {
+  float: left;
+  width: 47%;
+  margin: 10px;
+  overflow: hidden;
+}
+
+body #whats-been-happening .wrapper .right .blog-images:hover {
+  transform: scale(1.1);
+}
+
+body #whats-been-happening .wrapper .right .blog-container {
+  background-color: #c1c1c1;
+  padding: 20px;
+}
+
+body #whats-been-happening .wrapper .right .blog-container .blog-info {
+  font-family: 'Titillium-Regular';
+  font-size: 12px;
+}
+
+body #whats-been-happening .wrapper .right .blog-container h4 {
+  font-family: 'Titillium-Regular';
+  font-size: 35px;
+  text-align: center;
+  margin: 0px;
+  color: #0078ad;
+}
+
+body #whats-been-happening .wrapper .right .blog-container p {
+  font-family: 'Titillium-Regular';
+  font-size: 15px;
+  line-height: 20px;
+}
+
+body #whats-been-happening .wrapper .right .blog-container button {
+  background-color: #134a7d;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Titillium-Regular';
+  padding: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+body #whats-been-happening .wrapper .right .blog-container button:hover {
+  background-color: #428bca;
+}
+
+body #life-at-campus {
+  background: #e8eced url("../image/life-at-campus.jpg") no-repeat center;
+  background-size: cover;
+  height: 800px;
+}
+
+body #life-at-campus .wrapper {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 940px;
+}
+
+body #life-at-campus .wrapper h4 {
+  font-family: 'Titillium-Regular';
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  margin: 0px;
+  padding: 60px;
+}
+
+body #life-at-campus .wrapper .gallery-container .image-coloumn-1 {
+  float: left;
+}
+
+body #life-at-campus .wrapper .gallery-container .image-coloumn-1 .image-container img {
+  border: 2px solid #ffffff;
+  display: block;
+}
+
+body #life-at-campus .wrapper .gallery-container .image-coloumn-1 .image-container .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #0078ad;
+}
+
+body #life-at-campus .wrapper .gallery-container .image-coloumn-1 .image-container .icon {
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body #life-at-campus .wrapper .gallery-container .image-coloumn-1 .image-container:hover {
+  opacity: 1;
+}
+
+body #life-at-campus .wrapper .gallery-container .image-coloumn-2 {
+  float: left;
+}
+
+body #life-at-campus .wrapper .gallery-container .image-coloumn-2 .image-container img {
+  border: 2px solid #ffffff;
+  display: block;
+}
+
+body #life-at-campus .wrapper .gallery-container .image-coloumn-3 {
+  float: left;
+}
+
+body #life-at-campus .wrapper .gallery-container .image-coloumn-3 .image-container img {
+  border: 2px solid #ffffff;
+  display: block;
+}
+
+body footer {
+  background-color: #154a7c;
+  height: 450px;
+}
+
+body footer .wrapper {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 940px;
+  box-sizing: border-box;
+}
+
+body footer .wrapper .footer-info {
+  width: 30%;
+  color: #ffffff;
+  float: left;
+  margin: 10px;
+}
+
+body footer .wrapper .footer-info h4 {
+  font-family: 'Titillium-Regular';
+  font-size: 35px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 60px;
+}
+
+body footer .wrapper .footer-info p {
+  font-family: 'Titillium-Regular';
+  font-size: 15px;
+  line-height: 23px;
+}
+
+body footer .wrapper .footer-description {
+  width: 30%;
+  color: #ffffff;
+  float: left;
+  margin: 10px;
+}
+
+body footer .wrapper .footer-description h4 {
+  font-family: 'Titillium-Regular';
+  font-size: 35px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 60px;
+}
+
+body footer .wrapper .footer-description p {
+  font-family: 'Titillium-Regular';
+  font-size: 15px;
+  line-height: 23px;
+}
+
+body footer .wrapper .follow-us {
+  width: 30%;
+  color: #ffffff;
+  float: left;
+  margin: 10px;
+}
+
+body footer .wrapper .follow-us h4 {
+  font-family: 'Titillium-Regular';
+  font-size: 35px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 60px;
+}
+
+body footer .wrapper .follow-us .followus-images-container {
+  align-content: center;
+  padding-top: 10px;
+}
+
+body footer .wrapper .follow-us .followus-images-container .followus-images {
+  padding: 7px;
+}
+
+body .copyright {
+  background-color: #10406e;
+  height: 50px;
+}
+
+body .copyright .wrapper {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 940px;
+  box-sizing: border-box;
+}
+
+body .copyright .wrapper .left {
+  float: left;
+}
+
+body .copyright .wrapper .left a {
+  color: #ffffff;
+  padding: 5px;
+}
+
+body .copyright .wrapper .right {
+  float: right;
+}
+
+body .copyright .wrapper .right p {
+  color: #ffffff;
+  font-family: 'Titillium-Regular';
+  font-size: 13px;
+}
+
+body .copyright .wrapper .right p a {
+  color: #8bd3f5;
+}
+
+body .copyright .clear {
+  clear: both;
 }
