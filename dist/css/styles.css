@@ -4,18 +4,18 @@ body {
 }
 
 body header {
-  height: 120px;
+  height: 100px;
 }
 
 body header .wrapper {
   margin: 0 auto;
   padding: 0 10px;
-  width: 940px;
+  width: 1200px;
 }
 
-body header .wrapper a {
+body header .wrapper .logo {
   float: left;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 body header .wrapper nav {
@@ -24,19 +24,34 @@ body header .wrapper nav {
 
 body header .wrapper nav ul {
   list-style-type: none;
+  display: inline-block;
+  position: relative;
 }
 
 body header .wrapper nav ul li {
   float: left;
-  margin-top: 25px;
+  margin-top: 27px;
 }
 
-body header .wrapper nav ul li a {
+body header .wrapper nav ul li .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+body header .wrapper nav ul li .dropdown .menu {
   color: #000000;
   text-transform: uppercase;
   font-weight: bold;
-  margin-right: 20px;
+  margin-right: 30px;
   text-decoration: none;
+}
+
+body header .wrapper nav ul li .dropdown .drop-menu {
+  display: none;
+  position: absolute;
+  background-color: #10406e;
+  padding: 12px 16px;
+  z-index: 1;
 }
 
 body #hero-image {
@@ -48,7 +63,7 @@ body #hero-image {
 body #hero-image .wrapper {
   margin: 0 auto;
   padding: 0 10px;
-  width: 940px;
+  width: 1200px;
 }
 
 body #hero-image .wrapper h2 {
@@ -70,35 +85,36 @@ body #hero-image .wrapper h3 {
   position: relative;
   color: #0078ad;
   top: 250px;
-  left: 250px;
+  text-align: center;
 }
 
 body #hero-image .wrapper .button-container {
   position: relative;
-  top: 300px;
+  top: 280px;
 }
 
 body #hero-image .wrapper .button-container .hero-button {
-  width: 200px;
-  height: 100px;
+  width: 260px;
+  height: 130px;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 27px;
   font-family: 'Titillium-Regular';
   font-weight: bold;
   color: #ffffff;
   padding: 5px;
-  margin: 10px;
+  margin: 15px;
+  border: 0px;
 }
 
 body #hero-image .wrapper .button-container .hero-button .hero-button-icon {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 35px;
   padding: 7px 10px;
   float: left;
 }
 
 body #hero-image .wrapper .button-container .hero-button .hero-button-learn {
-  font-size: 14px;
+  font-size: 20px;
   text-transform: none;
   color: #10406e;
 }
@@ -127,7 +143,7 @@ body #who-we-are {
 body #who-we-are .wrapper {
   margin: 0 auto;
   padding: 0 10px;
-  width: 940px;
+  width: 1200px;
   box-sizing: border-box;
 }
 
@@ -218,7 +234,7 @@ body #whats-been-happening {
 body #whats-been-happening .wrapper {
   margin: 0 auto;
   padding: 0 10px;
-  width: 940px;
+  width: 1200px;
   height: 800px;
 }
 
@@ -231,7 +247,7 @@ body #whats-been-happening .wrapper h3 {
   padding-top: 60px;
 }
 
-body #whats-been-happening .wrapper h4 {
+body #whats-been-happening .wrapper .section-h4 {
   font-family: 'Titillium-Regular';
   font-size: 35px;
   text-align: center;
@@ -261,7 +277,7 @@ body #whats-been-happening .wrapper .left .blog-container .blog-info {
   font-size: 12px;
 }
 
-body #whats-been-happening .wrapper .left .blog-container h4 {
+body #whats-been-happening .wrapper .left .blog-container .blog-heading {
   font-family: 'Titillium-Regular';
   font-size: 35px;
   text-align: center;
@@ -283,6 +299,7 @@ body #whats-been-happening .wrapper .left .blog-container button {
   padding: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  border: 0;
 }
 
 body #whats-been-happening .wrapper .left .blog-container button:hover {
@@ -310,7 +327,7 @@ body #whats-been-happening .wrapper .right .blog-container .blog-info {
   font-size: 12px;
 }
 
-body #whats-been-happening .wrapper .right .blog-container h4 {
+body #whats-been-happening .wrapper .right .blog-container .blog-heading {
   font-family: 'Titillium-Regular';
   font-size: 35px;
   text-align: center;
@@ -332,6 +349,7 @@ body #whats-been-happening .wrapper .right .blog-container button {
   padding: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  border: 0;
 }
 
 body #whats-been-happening .wrapper .right .blog-container button:hover {
@@ -341,13 +359,13 @@ body #whats-been-happening .wrapper .right .blog-container button:hover {
 body #life-at-campus {
   background: #e8eced url("../image/life-at-campus.jpg") no-repeat center;
   background-size: cover;
-  height: 800px;
+  height: 900px;
 }
 
 body #life-at-campus .wrapper {
   margin: 0 auto;
   padding: 0 10px;
-  width: 940px;
+  width: 1200px;
 }
 
 body #life-at-campus .wrapper h4 {
@@ -414,13 +432,13 @@ body #life-at-campus .wrapper .gallery-container .image-coloumn-3 .image-contain
 
 body footer {
   background-color: #154a7c;
-  height: 450px;
+  height: 400px;
 }
 
 body footer .wrapper {
   margin: 0 auto;
   padding: 0 10px;
-  width: 940px;
+  width: 1200px;
   box-sizing: border-box;
 }
 
@@ -498,12 +516,13 @@ body .copyright {
 body .copyright .wrapper {
   margin: 0 auto;
   padding: 0 10px;
-  width: 940px;
+  width: 1200px;
   box-sizing: border-box;
 }
 
 body .copyright .wrapper .left {
   float: left;
+  padding-top: 15px;
 }
 
 body .copyright .wrapper .left a {
@@ -519,6 +538,7 @@ body .copyright .wrapper .right p {
   color: #ffffff;
   font-family: 'Titillium-Regular';
   font-size: 13px;
+  padding-top: 7px;
 }
 
 body .copyright .wrapper .right p a {

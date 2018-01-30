@@ -14,16 +14,61 @@
 <body>
   <header>
     <div class="wrapper">
-      <a href="#">
-        <img src="./image/geek_marketers_logo.png" alt="Logo" width=150>
+      <a class="logo" href="#">
+        <img src="./image/geek_marketers_logo.png" alt="Logo" width=120px>
       </a>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
+          <li>
+            <div class="dropdown">
+              <a class="menu" href="#">Home</a>
+              <div class="drop-menu">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown">
+                <a class="menu" href="#">Services</a>
+                <div class="drop-menu">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+              </div>
+          </li>
+          <li>
+            <div class="dropdown">
+              <a class="menu" href="#">About</a>
+              <div class="drop-menu">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown">
+                <a class="menu" href="#">Blogs</a>
+                <div class="drop-menu">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+              </div>
+          </li>
+          <li>
+            <div class="dropdown">
+                <a class="menu" href="#">Contact</a>
+                <div class="drop-menu">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+              </div>
+          </li>
         </ul>
       </nav>
     </div>
@@ -64,21 +109,21 @@
   <section id="whats-been-happening">
     <div class="wrapper">
       <h3>What's been happening</h3>
-      <h4>What it's like to be a part of our school community</h4>
+      <h4 class="section-h4">What it's like to be a part of our school community</h4>
       <div class="left">
-        <img class="blog-images" src="./image/blog-1.jpg" alt="blog" width=450px>
+        <img class="blog-images" src="./image/blog-1.jpg" alt="blog" width=570px>
         <div class="blog-container">
           <p class="blog-info">June 27, 2017 | By Admin | In Sports</p>
-          <h4>Blog title goes here</h4>
+          <h4 class="blog-heading">Blog title goes here</h4>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus, odit labore. Saepe eos est quasi! Officiis laborum libero aperiam quasi accusamus animi amet aliquam dolores, tenetur nam, consequatur eius recusandae</p>
           <button>Read More</button>
         </div>
       </div>
       <div class="right">
-        <img class="blog-images" src="./image/blog-2.jpg" alt="blog" width=450px>
+        <img class="blog-images" src="./image/blog-2.jpg" alt="blog" width=570px>
         <div class="blog-container">
           <p class="blog-info">June 27, 2017 | By Admin | In Sports</p>
-          <h4>Blog title goes here</h4>
+          <h4 class="blog-heading">Blog title goes here</h4>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus, odit labore. Saepe eos est quasi! Officiis laborum libero aperiam quasi accusamus animi amet aliquam dolores, tenetur nam, consequatur eius recusandae</p>
           <button>Read More</button>
         </div>
@@ -91,32 +136,32 @@
       <div class="gallery-container">
         <div class="image-coloumn-1">
           <div class="image-container">
-              <img src="./image/gallery-image-1.jpg" alt="gallery-image" width=334px>
+              <img src="./image/gallery-image-1.jpg" alt="gallery-image" width=410.75px>
               <div class="overlay">
                 <div class="icon"><i class="fa fa-arrows-alt"></i></div>
               </div>
           </div>
           <div class="image-container">
-              <img src="./image/gallery-image-3.jpg" alt="gallery-image" width=334px>
+              <img src="./image/gallery-image-3.jpg" alt="gallery-image" width=410.75px>
           </div>
         </div>
         <div class="image-coloumn-2">
           <div class="image-container">
-            <img src="./image/gallery-image-2.jpg" alt="gallery-image" width=260px>
+            <img src="./image/gallery-image-2.jpg" alt="gallery-image" width=320px>
           </div>
           <div class="image-container">
-            <img src="./image/gallery-image-5.jpg" alt="gallery-image" width=260px>
+            <img src="./image/gallery-image-5.jpg" alt="gallery-image" width=320px>
           </div>
           <div class="image-container">
-            <img src="./image/gallery-image-7.jpg" alt="gallery-image" width=260px>
+            <img src="./image/gallery-image-7.jpg" alt="gallery-image" width=320px>
           </div>
         </div>
         <div class="image-coloumn-3">
           <div class="image-container">
-            <img src="./image/gallery-image-6.jpg" alt="gallery-image" width=334px>
+            <img src="./image/gallery-image-6.jpg" alt="gallery-image" width=410.75px>
           </div>
           <div class="image-container">
-            <img src="./image/gallery-image-4.jpg" alt="gallery-image" width=334px>
+            <img src="./image/gallery-image-4.jpg" alt="gallery-image" width=410.75px>
           </div>
         </div>
       </div>
@@ -138,7 +183,6 @@
       <div class="follow-us">
         <h4>Follow us</h4>
         <div class="followus-images-container">
-          <img class="followus-images" src="http://via.placeholder.com/69x69" alt="photo" width=69px height=69px>
           <img class="followus-images" src="http://via.placeholder.com/69x69" alt="photo" width=69px height=69px>
           <img class="followus-images" src="http://via.placeholder.com/69x69" alt="photo" width=69px height=69px>
           <img class="followus-images" src="http://via.placeholder.com/69x69" alt="photo" width=69px height=69px>
